@@ -55,6 +55,28 @@
     list-style-type: none;
 
   }
+
+  .cart {
+    position: relative;
+
+    .count_product {
+      display: none;
+      box-sizing: border-box;
+      position: absolute;
+      left: 22px;
+      top: -8px;
+      width: 19px;
+      height: 19px;
+      padding-top: 2px;
+      border-radius: 50%;
+      background: #F16D7F;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+      text-align: center;
+      z-index: 1;
+    }
+  }
 }
 
 //HERO_BLOCK
@@ -240,14 +262,17 @@ $third: 100%/3;
     left: 0;
     background: rgba(58, 56, 56, 0.86);
     z-index: 1;
-    .cart_link:active{
+
+    .cart_link:active {
       background-color: rgba(255, 106, 106, 0.63);
     }
-    .cart_link:visited{
+
+    .cart_link:visited {
       color: #FFFFFF;
     }
 
     .cart_link {
+      user-select: none;
       align-self: center;
       display: flex;
       justify-content: center;
