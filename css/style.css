@@ -1,0 +1,16 @@
+.menu {
+  color: red;
+  border: 1px solid #000;
+}
+
+.menu.header_menu {
+  font-size: 25px;
+  font-weight: bold;
+  color: #506738;
+}
+
+.offer_menu {
+  color: rebeccapurple;
+}
+
+/*# sourceMappingURL=style.css.map */
