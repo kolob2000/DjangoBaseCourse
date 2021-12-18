@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.menu.header__menu {
+  justify-content: space-between;
+}
+.menu.header__menu .menu__item {
+  max-width: 100%;
+}
+.menu.header__menu .menu__item:hover {
+  background-color: #ff8126;
+  border-radius: 5px;
+}
+.menu.header__menu .menu__list {
+  list-style-type: none;
+  gap: 40px;
+}
+.menu.header__menu .menu__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0 5px;
+}
+
+.menu-icons.header__menu-icons .menu-icons__list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.menu-icons.header__menu-icons .menu-icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  gap: 10px;
+}
+.menu-icons.header__menu-icons .menu-icons__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */

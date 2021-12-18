@@ -1,74 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link href="css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link href="css/style.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-/////////////////////////////////
-<!--HEADER-->
-<header class="header">
-    <div class="menu header_menu">
-        hello
-    </div>
-</header>
-<!--HEADER-->
-/////////////////////////////////
-<!--LATEST_OFFER-->
-<section class="latest-offer">
-    <div class="menu offer_menu">
-        goodbye
-    </div>
-
-</section>
-<!--LATEST_OFFER-->
-/////////////////////////////////
-<!--WHY_CHOOSE-->
-<section class="why-choose">
-
-</section>
-<!--WHY_CHOOSE-->
-/////////////////////////////////
-<!--HWO_MAKES-->
-<section class="who-makes">
-
-</section>
-<!--HWO_MAKES-->
-/////////////////////////////////
-<!--OUR_PARTNER-->
-<section class="our-partner">
-
-</section>
-<!--OUR_PARTNER-->
-/////////////////////////////////
-<!--SURPRISE_SOMEONE-->
-<section class="surprise-someone">
-
-</section>
-<!--SURPRISE_SOMEONE-->
-/////////////////////////////////
-<!--INSTAGRAM-->
-<section class="instagram">
-
-</section>
-<!--INSTAGRAM-->
-/////////////////////////////////
-<!--TELL_A_FRIEND-->
-<section class="tell-a-friend">
-
-</section>
-<!--TELL_A_FRIEND-->
-/////////////////////////////////
-<!--FOOTER-->
-<footer class="footer">
-
-</footer>
-<!--FOOTER-->
-/////////////////////////////////
-<script src="js/app.js"></script>
-</body>
+  </head>
+  <body>
+    <!--/////////////////////////////////-->
+    <!--HEADER-->
+    <header class="header">
+      <nav class="nav header__nav container">
+        <div class="nav__left">
+          <div class="logo">
+            <a class="logo_link" href="#"
+              ><img alt="logo-image" class="logo_img" src="img/logo.svg"
+            /></a>
+          </div>
+          <div class="menu header__menu dropdown-menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="https://google.ru">Occasions</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">All Categories</a>
+              </li>
+              <li class="menu__item dropper_root">
+                <a class="menu__link" href="">Gifts & Bundles</a>
+                <ul class="menu__list dropdown_down">
+                  <li class="menu__item">
+                    <a class="menu__link" href="https://google.ru">Occasions</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">All Categories</a>
+                  </li>
+                  <li class="menu__item dropper_node">
+                    <a class="menu__link" href="">Gifts & Bundles</a>
+                    <ul class="menu__list dropdown_right">
+                      <li class="menu__item">
+                        <a class="menu__link" href="https://google.ru"
+                          >Occasions</a
+                        >
+                      </li>
+                      <li class="menu__item">
+                        <a class="menu__link" href="">All Categories</a>
+                      </li>
+                      <li class="menu__item">
+                        <a class="menu__link" href="">Gifts & Bundles</a>
+                      </li>
+                      <li class="menu__item">
+                        <a class="menu__link" href="">Our Brands</a>
+                      </li>
+                      <li class="menu__item">
+                        <a class="menu__link" href="">About Us</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">Our Brands</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">About Us</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Our Brands</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav__right">
+          <div class="menu-icons header__menu-icons">
+            <ul class="menu-icons__list">
+              <li class="menu-icons__item">
+                <a class="menu-icons__link" href="">
+                  <img
+                    alt="search"
+                    class="menu-icons__img"
+                    src="img/search.svg"
+                  />
+                </a>
+              </li>
+              <li class="menu-icons__item">
+                <a class="menu-icons__link" href="">
+                  <img
+                    alt="login"
+                    class="menu-icons__img"
+                    src="img/login.svg"
+                  />
+                </a>
+              </li>
+              <li class="menu-icons__item">
+                <a class="menu-icons__link" href="">
+                  <img alt="cart" class="menu-icons__img" src="img/cart.svg" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner header__banner">
+        <div class="info banner__info container">
+          <h1 class="banner__heading">Support Your Local Artisans</h1>
+          <p class="banner__text">Discover brands and theit stories</p>
+          <div class="button banner_button">
+            <a class="banner__link" href=""> Browse bands </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--HEADER-->
+    <!--/////////////////////////////////-->
+    <!--LATEST_OFFER-->
+    <section class="latest-offer container">
+      <h3 class="latest-offer__heading-3">Latest Offers</h3>
+      <div class="cards latest-offer__cards">
+        <div class="cards__item">
+          <img alt="pizza" class="cards__img" src="img/pizza_product.png" />
+          <h4 class="cards__heading-4">Pepperoni Pizza</h4>
+          <div class="cards_prices">
+            <span class="cards__current-price"> $19.99 </span>
+            <span class="cards__old-price"> $24.99 </span>
+            <div class="button cards__button">
+              <a class="cards__link" href=""> Quick Shop </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--LATEST_OFFER-->
+    <!--/////////////////////////////////-->
+    <!--WHY_CHOOSE-->
+    <section class="why-choose"></section>
+    <!--WHY_CHOOSE-->
+    <!--/////////////////////////////////-->
+    <!--HWO_MAKES-->
+    <section class="who-makes"></section>
+    <!--HWO_MAKES-->
+    <!--/////////////////////////////////-->
+    <!--OUR_PARTNER-->
+    <section class="our-partner"></section>
+    <!--OUR_PARTNER-->
+    <!--/////////////////////////////////-->
+    <!--SURPRISE_SOMEONE-->
+    <section class="surprise-someone"></section>
+    <!--SURPRISE_SOMEONE-->
+    <!--/////////////////////////////////-->
+    <!--INSTAGRAM-->
+    <section class="instagram"></section>
+    <!--INSTAGRAM-->
+    <!--/////////////////////////////////-->
+    <!--TELL_A_FRIEND-->
+    <section class="tell-a-friend"></section>
+    <!--TELL_A_FRIEND-->
+    <!--/////////////////////////////////-->
+    <!--FOOTER-->
+    <footer class="footer"></footer>
+    <!--FOOTER-->
+    <!--/////////////////////////////////-->
+    <script src="js/app.js"></script>
+  </body>
 </html>

@@ -1,0 +1,33 @@
+.dropdown-menu .dropper_root {
+  position: relative;
+}
+.dropdown-menu .dropper_root > .menu__link:after {
+  content: url("../img/dropper_root.svg");
+  padding-left: 7px;
+}
+.dropdown-menu .dropper_node {
+  position: relative;
+}
+.dropdown-menu .dropper_node > .menu__link:after {
+  content: url("../img/dropper_node.svg");
+  padding-left: 7px;
+}
+.dropdown-menu .dropdown_down {
+  display: none;
+  position: absolute;
+}
+.dropdown-menu .dropdown_right {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+}
+.dropdown-menu .dropper_root:hover > ul {
+  display: block;
+}
+.dropdown-menu .dropper_node:hover > ul {
+  display: block;
+}
+
+/*# sourceMappingURL=dropdown_menu.css.map */

@@ -1,0 +1,40 @@
+.header__banner {
+  margin: 0 auto;
+  background-image: url(../img/header_banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner {
+  box-sizing: border-box;
+  padding-top: 125px;
+
+  .banner__heading {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .banner__text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 40px;
+  }
+
+  .banner__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+  .banner_button {
+    width: 200px;
+    height: 45px;
+  }
+}
