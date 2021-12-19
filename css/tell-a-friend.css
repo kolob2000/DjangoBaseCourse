@@ -1,0 +1,22 @@
+.tell-a-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 260px;
+  background-image: url(../img/tell_back.png);
+}
+.tell-a-friend .tell-a-friend__heading-3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=tell-a-friend.css.map */

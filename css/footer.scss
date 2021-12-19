@@ -1,0 +1,32 @@
+.footer {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+
+  .menu__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .menu__link {
+    font-weight: 500;
+  }
+  .menu__root-item{
+    margin-bottom: 15px;
+  }
+
+  .menu__sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .menu__sublink {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3d3d3d;
+  }
+}

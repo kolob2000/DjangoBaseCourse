@@ -1,0 +1,26 @@
+.surprise-someone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.surprise-someone .surprise-someone__features {
+  width: 569px;
+}
+.surprise-someone .surprise-someone__heading-3 {
+  margin-top: 53px;
+  margin-bottom: 20px;
+}
+.surprise-someone .surprise-someone_text {
+  margin-bottom: 30px;
+}
+.surprise-someone .surprise-someone__link {
+  width: 140px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=surprise.css.map */

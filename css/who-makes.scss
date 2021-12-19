@@ -1,0 +1,46 @@
+.who-makes {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+  justify-content: center;
+}
+
+.who-makes_features {
+  max-width: 570px;
+  min-width: 570px;
+
+  .who-makes__heading-3 {
+    margin-bottom: 20px;
+  }
+
+  .who-makes__text {
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+
+  .who-makes__list {
+    list-style-type: none;
+  }
+
+  .who-makes__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    margin-bottom: 20px;
+  }
+
+  .who-makes__link {
+    width: 270px;
+    height: 45px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+}
+
+.who-makes__img {
+  max-width: 570px;
+  min-width: 570px;
+}
