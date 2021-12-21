@@ -1,519 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
     <meta
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-            name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
     />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <link href="css/style.css" rel="stylesheet"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link href="css/style.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-<!--/////////////////////////////////-->
-<!--HEADER-->
-<header class="header">
-    <nav class="nav header__nav container">
+  </head>
+  <body>
+    <!--/////////////////////////////////-->
+    <!--HEADER-->
+    <header class="header">
+      <nav class="nav header__nav container">
         <div class="nav__left">
-            <div class="logo">
-                <a class="logo_link" href="#"
-                ><img alt="logo-image" class="logo_img" src="img/logo.svg"
-                /></a>
-            </div>
-            <div class="menu header__menu dropdown-menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link" href="https://google.ru">Occasions</a>
-                    </li>
-                    <li class="menu__item">
+          <div class="logo">
+            <a class="logo_link" href="#"
+              ><img alt="logo-image" class="logo_img" src="img/logo.svg"
+            /></a>
+          </div>
+          <div class="menu header__menu dropdown-menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="https://google.ru">Occasions</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">All Categories</a>
+              </li>
+              <li class="menu__item dropper_root">
+                <a class="menu__link" href="">Gifts & Bundles</a>
+                <ul class="menu__list dropdown_down">
+                  <li class="menu__item">
+                    <a class="menu__link" href="https://google.ru">Occasions</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">All Categories</a>
+                  </li>
+                  <li class="menu__item dropper_node">
+                    <a class="menu__link" href="">Gifts & Bundles</a>
+                    <ul class="menu__list dropdown_right">
+                      <li class="menu__item">
+                        <a class="menu__link" href="https://google.ru"
+                          >Occasions</a
+                        >
+                      </li>
+                      <li class="menu__item">
                         <a class="menu__link" href="">All Categories</a>
-                    </li>
-                    <li class="menu__item dropper_root">
+                      </li>
+                      <li class="menu__item">
                         <a class="menu__link" href="">Gifts & Bundles</a>
-                        <ul class="menu__list dropdown_down">
-                            <li class="menu__item">
-                                <a class="menu__link" href="https://google.ru">Occasions</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="">All Categories</a>
-                            </li>
-                            <li class="menu__item dropper_node">
-                                <a class="menu__link" href="">Gifts & Bundles</a>
-                                <ul class="menu__list dropdown_right">
-                                    <li class="menu__item">
-                                        <a class="menu__link" href="https://google.ru"
-                                        >Occasions</a
-                                        >
-                                    </li>
-                                    <li class="menu__item">
-                                        <a class="menu__link" href="">All Categories</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a class="menu__link" href="">Gifts & Bundles</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a class="menu__link" href="">Our Brands</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a class="menu__link" href="">About Us</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="">Our Brands</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="">About Us</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
+                      </li>
+                      <li class="menu__item">
                         <a class="menu__link" href="">Our Brands</a>
-                    </li>
-                    <li class="menu__item">
+                      </li>
+                      <li class="menu__item">
                         <a class="menu__link" href="">About Us</a>
-                    </li>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">Our Brands</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="">About Us</a>
+                  </li>
                 </ul>
-            </div>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Our Brands</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">About Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="nav__right">
-            <div class="menu-icons header__menu-icons">
-                <ul class="menu-icons__list">
-                    <li class="menu-icons__item">
-                        <a class="menu-icons__link" href="">
-                            <img
-                                    alt="search"
-                                    class="menu-icons__img"
-                                    src="img/search.svg"
-                            />
-                        </a>
-                    </li>
-                    <li class="menu-icons__item">
-                        <a class="menu-icons__link" href="">
-                            <img
-                                    alt="login"
-                                    class="menu-icons__img"
-                                    src="img/login.svg"
-                            />
-                        </a>
-                    </li>
-                    <li class="menu-icons__item">
-                        <a class="menu-icons__link" href="">
-                            <img alt="cart" class="menu-icons__img" src="img/cart.svg"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          <div class="menu-icons header__menu-icons">
+            <ul class="menu-icons__list">
+              <li class="menu-icons__item">
+                <a class="menu-icons__link" href="">
+                  <img
+                    alt="search"
+                    class="menu-icons__img"
+                    src="img/search.svg"
+                  />
+                </a>
+              </li>
+              <li class="menu-icons__item">
+                <a class="menu-icons__link" href="">
+                  <img
+                    alt="login"
+                    class="menu-icons__img"
+                    src="img/login.svg"
+                  />
+                </a>
+              </li>
+              <li  class="menu-icons__item menu-icons__cart">
+                <a class="menu-icons__link" href="">
+                  <div class="menu-icons__product-count">
+                    <span class="menu-icons__cart-text"></span>
+                  </div>
+                  <img id="cart-icon" alt="cart" class="menu-icons__img" src="img/cart.svg" />
+                </a>
+                <div
+                  class="menu-icons__popup-cart popup-cart hidden"
+
+                >
+                  <div class="popup-cart_item">
+                    <div class="popup-cart__title text">Title</div>
+                    <div class="popup-cart__img text">Image</div>
+                    <div class="popup-cart__quantity text">Quantity</div>
+                    <div class="popup-cart__price text">Price</div>
+                    <div class="popup-cart__sum text">Total</div>
+                  </div>
+                  <img
+                    alt=""
+                    class="menu-icons__cross hidden"
+                    id="cart-cross"
+                    src="img/cross.png"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    <div class="banner header__banner">
+      </nav>
+      <div class="banner header__banner">
         <div class="info banner__info container">
-            <h1 class="banner__heading">Support Your Local Artisans</h1>
-            <p class="banner__text">Discover brands and theit stories</p>
-            <div class="button banner_button">
-                <a class="banner__link" href=""> Browse bands </a>
-            </div>
+          <h1 class="banner__heading">Support Your Local Artisans</h1>
+          <p class="banner__text">Discover brands and theit stories</p>
+          <div class="button banner_button">
+            <a class="banner__link" href=""> Browse bands </a>
+          </div>
         </div>
-    </div>
-</header>
-<!--HEADER-->
-<!--/////////////////////////////////-->
-<!--LATEST_OFFER-->
-<section class="latest-offer container">
-    <h3 class="latest-offer__heading-3">
+      </div>
+    </header>
+    <!--HEADER-->
+    <!--/////////////////////////////////-->
+    <!--LATEST_OFFER-->
+    <section class="latest-offer container">
+      <h3 class="latest-offer__heading-3">
         Latest<span class="orange-words"> Offers</span>
-    </h3>
-    <div class="cards latest-offer__cards">
-        <div class="cards__item">
-            <img alt="pizza" class="cards__img" src="img/pizza_product.png"/>
-            <h5 class="cards__heading-5">Pepperoni Pizza</h5>
-            <div class="cards_prices">
-                <span class="cards__current-price">$19.99</span>
-                <span class="cards__old-price">$24.99</span>
-            </div>
-            <div class="button cards__button">
-                <a class="cards__link" href=""> Quick Shop </a>
-            </div>
+      </h3>
+      <div class="cards latest-offer__cards">
+        <div class="cards__item" data-id = "0">
+          <img alt="pizza" class="cards__img" src="img/pizza_product.png" />
+          <h5 class="cards__heading-5">Pepperoni Pizza</h5>
+          <div class="cards_prices">
+            <span class="cards__current-price">$19.99</span>
+            <span class="cards__old-price">$24.99</span>
+          </div>
+          <div class="button cards__button">
+            <a class="cards__link" href=""> Quick Shop </a>
+          </div>
         </div>
-        <div class="cards__item">
-            <img alt="pizza" class="cards__img" src="img/pancake_product.png"/>
-            <h5 class="cards__heading-5">Baked Pancakes</h5>
-            <div class="cards_prices">
-                <span class="cards__current-price">$35.99</span>
-                <span class="cards__old-price">$44.99</span>
-            </div>
-            <div class="button cards__button">
-                <a class="cards__link" href=""> Quick Shop </a>
-            </div>
+        <div class="cards__item" data-id = "1">
+          <img alt="pizza" class="cards__img" src="img/pancake_product.png" />
+          <h5 class="cards__heading-5">Baked Pancakes</h5>
+          <div class="cards_prices">
+            <span class="cards__current-price">$35.99</span>
+            <span class="cards__old-price">$44.99</span>
+          </div>
+          <div class="button cards__button">
+            <a class="cards__link" href=""> Quick Shop </a>
+          </div>
         </div>
-        <div class="cards__item">
-            <img alt="pizza" class="cards__img" src="img/avacado.png"/>
-            <h5 class="cards__heading-5">Avocado</h5>
-            <div class="cards_prices">
-                <span class="cards__current-price">$17.99</span>
-                <span class="cards__old-price">$20.99</span>
-            </div>
-            <div class="button cards__button">
-                <a class="cards__link" href=""> Quick Shop </a>
-            </div>
+        <div class="cards__item" data-id = "2">
+          <img alt="pizza" class="cards__img" src="img/avacado.png" />
+          <h5 class="cards__heading-5">Avocado</h5>
+          <div class="cards_prices">
+            <span class="cards__current-price">$17.99</span>
+            <span class="cards__old-price">$20.99</span>
+          </div>
+          <div class="button cards__button">
+            <a class="cards__link" href=""> Quick Shop </a>
+          </div>
         </div>
-        <div class="cards__item">
-            <img alt="pizza" class="cards__img" src="img/orange.png"/>
-            <h5 class="cards__heading-5">Bunch of Orange</h5>
-            <div class="cards_prices">
-                <span class="cards__current-price">24.99</span>
-                <span class="cards__old-price">$29.99</span>
-            </div>
-            <div class="button cards__button">
-                <a class="cards__link" href=""> Quick Shop </a>
-            </div>
+        <div class="cards__item" data-id = "3">
+          <img alt="pizza" class="cards__img" src="img/orange.png" />
+          <h5 class="cards__heading-5">Bunch of Orange</h5>
+          <div class="cards_prices">
+            <span class="cards__current-price">24.99</span>
+            <span class="cards__old-price">$29.99</span>
+          </div>
+          <div class="button cards__button">
+            <a class="cards__link" href=""> Quick Shop </a>
+          </div>
         </div>
-    </div>
-</section>
-<!--LATEST_OFFER-->
-<!--/////////////////////////////////-->
-<!--WHY_CHOOSE-->
-<section class="why-choose container">
-    <h3 class="why-choose__heading-3">
+      </div>
+    </section>
+    <!--LATEST_OFFER-->
+    <!--/////////////////////////////////-->
+    <!--WHY_CHOOSE-->
+    <section class="why-choose container">
+      <h3 class="why-choose__heading-3">
         Why Choose <span class="orange-words">the Premium Bakery Quality</span>
-    </h3>
-    <div class="advantage-cards advantage-cards__why-choose">
+      </h3>
+      <div class="advantage-cards advantage-cards__why-choose">
         <div class="advantage-cards__item">
-            <img
-                    alt="telescope"
-                    class="advantage-cards__img"
-                    src="img/telescope.png"
-            />
-            <h4 class="advantage-cads__heading-4">
-                Discover new flavours & people
-            </h4>
-            <p class="advantage-cards__text">
-                Discover new tastes, flavours, snacks and recipes to make wonderful
-                meals. Also find out where your food comes from and who makes it.
-            </p>
+          <img
+            alt="telescope"
+            class="advantage-cards__img"
+            src="img/telescope.png"
+          />
+          <h4 class="advantage-cads__heading-4">
+            Discover new flavours & people
+          </h4>
+          <p class="advantage-cards__text">
+            Discover new tastes, flavours, snacks and recipes to make wonderful
+            meals. Also find out where your food comes from and who makes it.
+          </p>
         </div>
         <div class="advantage-cards__item">
-            <img
-                    alt="telescope"
-                    class="advantage-cards__img"
-                    src="img/wholesale.png"
-            />
-            <h4 class="advantage-cads__heading-4">Buy wholesale</h4>
-            <p class="advantage-cards__text">
-                We offer bulk formats, variety cases, and discovery boxes so you can
-                save money on delicious foods by buying at wholesale prices.
-            </p>
+          <img
+            alt="telescope"
+            class="advantage-cards__img"
+            src="img/wholesale.png"
+          />
+          <h4 class="advantage-cads__heading-4">Buy wholesale</h4>
+          <p class="advantage-cards__text">
+            We offer bulk formats, variety cases, and discovery boxes so you can
+            save money on delicious foods by buying at wholesale prices.
+          </p>
         </div>
         <div class="advantage-cards__item">
-            <img
-                    alt="telescope"
-                    class="advantage-cards__img"
-                    src="img/support.png"
-            />
-            <h4 class="advantage-cads__heading-4">Support your community</h4>
-            <p class="advantage-cards__text">
-                By buying in bulk from local and Canadian producers you are helping
-                grow our local food ecosystem, creating jobs, and supporting
-                families and entrepreneurs in your community.
-            </p>
+          <img
+            alt="telescope"
+            class="advantage-cards__img"
+            src="img/support.png"
+          />
+          <h4 class="advantage-cads__heading-4">Support your community</h4>
+          <p class="advantage-cards__text">
+            By buying in bulk from local and Canadian producers you are helping
+            grow our local food ecosystem, creating jobs, and supporting
+            families and entrepreneurs in your community.
+          </p>
         </div>
         <div class="advantage-cards__item">
-            <img
-                    alt="telescope"
-                    class="advantage-cards__img"
-                    src="img/winner.png"
-            />
-            <h4 class="advantage-cads__heading-4">Enjoy the best quality</h4>
-            <p class="advantage-cards__text">
-                We only offer great tasting, all natural foods that are better for
-                you, and organic if possible.
-            </p>
+          <img
+            alt="telescope"
+            class="advantage-cards__img"
+            src="img/winner.png"
+          />
+          <h4 class="advantage-cads__heading-4">Enjoy the best quality</h4>
+          <p class="advantage-cards__text">
+            We only offer great tasting, all natural foods that are better for
+            you, and organic if possible.
+          </p>
         </div>
         <div class="advantage-cards__item">
-            <img
-                    alt="telescope"
-                    class="advantage-cards__img"
-                    src="img/heart.png"
-            />
-            <h4 class="advantage-cads__heading-4">Enjoy Club Level Service</h4>
-            <p class="advantage-cards__text">
-                As a member of our club, we will make sure you are delighted with
-                our service or we will make it right!
-            </p>
+          <img
+            alt="telescope"
+            class="advantage-cards__img"
+            src="img/heart.png"
+          />
+          <h4 class="advantage-cads__heading-4">Enjoy Club Level Service</h4>
+          <p class="advantage-cards__text">
+            As a member of our club, we will make sure you are delighted with
+            our service or we will make it right!
+          </p>
         </div>
-    </div>
-</section>
-<!--WHY_CHOOSE-->
-<!--/////////////////////////////////-->
-<!--HWO_MAKES-->
-<section class="who-makes container">
-    <div class="who-makes_features">
+      </div>
+    </section>
+    <!--WHY_CHOOSE-->
+    <!--/////////////////////////////////-->
+    <!--HWO_MAKES-->
+    <section class="who-makes container">
+      <div class="who-makes_features">
         <h3 class="who-makes__heading-3">
-            <span class="orange-words">Who Makes</span>
-            Your Food?
+          <span class="orange-words">Who Makes</span>
+          Your Food?
         </h3>
         <p class="who-makes__text">
-            Our mission is to help grow the local food ecosystem in BC and across
-            Canada. Why?
+          Our mission is to help grow the local food ecosystem in BC and across
+          Canada. Why?
         </p>
         <ul class="who-makes__list">
-            <li class="who-makes__item">
-                <img
-                        alt=""
-                        class="who_makes__bullet"
-                        src="img/who-makes_bullet.svg"
-                />
-                Because it connects us to the land we live on, and to the people who
-                live here.
-            </li>
-            <li class="who-makes__item">
-                <img
-                        alt=""
-                        class="who_makes__bullet"
-                        src="img/who-makes_bullet.svg"
-                />
-                Because it’s more meaningful to cook and eat something made by a
-                person nearby than by some distant corporation
-            </li>
-            <li class="who-makes__item">
-                <img
-                        alt=""
-                        class="who_makes__bullet"
-                        src="img/who-makes_bullet.svg"
-                />
-                Because good local food makes our corner of the world a better place
-                to live
-            </li>
-            <li class="who-makes__item">
-                <img
-                        alt=""
-                        class="who_makes__bullet"
-                        src="img/who-makes_bullet.svg"
-                />Because it supports local jobs
-            </li>
-            <li class="who-makes__item">
-                <img
-                        alt=""
-                        class="who_makes__bullet"
-                        src="img/who-makes_bullet.svg"
-                />
-                Because it makes more sense for the environment
-            </li>
+          <li class="who-makes__item">
+            <img
+              alt=""
+              class="who_makes__bullet"
+              src="img/who-makes_bullet.svg"
+            />
+            Because it connects us to the land we live on, and to the people who
+            live here.
+          </li>
+          <li class="who-makes__item">
+            <img
+              alt=""
+              class="who_makes__bullet"
+              src="img/who-makes_bullet.svg"
+            />
+            Because it’s more meaningful to cook and eat something made by a
+            person nearby than by some distant corporation
+          </li>
+          <li class="who-makes__item">
+            <img
+              alt=""
+              class="who_makes__bullet"
+              src="img/who-makes_bullet.svg"
+            />
+            Because good local food makes our corner of the world a better place
+            to live
+          </li>
+          <li class="who-makes__item">
+            <img
+              alt=""
+              class="who_makes__bullet"
+              src="img/who-makes_bullet.svg"
+            />Because it supports local jobs
+          </li>
+          <li class="who-makes__item">
+            <img
+              alt=""
+              class="who_makes__bullet"
+              src="img/who-makes_bullet.svg"
+            />
+            Because it makes more sense for the environment
+          </li>
         </ul>
         <a class="who-makes__link button" href="">Discover our Producers</a>
-    </div>
-    <img alt="who-makes-img" class="who-makes__img" src="img/who-makes.png"/>
-</section>
-<!--HWO_MAKES-->
-<!--/////////////////////////////////-->
-<!--OUR_PARTNER-->
-<section class="our-partner">
-    <h3 class="our-partner__heading-3">Our Charity Partner, City Bakery</h3>
-    <img
-            alt="partner-logo"
-            class="our-partner__logo"
-            src="img/partner_logo.png"
-    />
-    <a class="our-partner__link button" href=""
-    >Learn more about City Bakery</a
-    >
-</section>
-<!--OUR_PARTNER-->
-<!--/////////////////////////////////-->
-<!--SURPRISE_SOMEONE-->
-<section class="surprise-someone container">
-    <img alt="" class="surprise-someone__img" src="img/surprise_img.png"/>
-    <div class="surprise-someone__features">
+      </div>
+      <img alt="who-makes-img" class="who-makes__img" src="img/who-makes.png" />
+    </section>
+    <!--HWO_MAKES-->
+    <!--/////////////////////////////////-->
+    <!--OUR_PARTNER-->
+    <section class="our-partner">
+      <h3 class="our-partner__heading-3">Our Charity Partner, City Bakery</h3>
+      <img
+        alt="partner-logo"
+        class="our-partner__logo"
+        src="img/partner_logo.png"
+      />
+      <a class="our-partner__link button" href=""
+        >Learn more about City Bakery</a
+      >
+    </section>
+    <!--OUR_PARTNER-->
+    <!--/////////////////////////////////-->
+    <!--SURPRISE_SOMEONE-->
+    <section class="surprise-someone container">
+      <img alt="" class="surprise-someone__img" src="img/surprise_img.png" />
+      <div class="surprise-someone__features">
         <h3 class="surprise-someone__heading-3">
-            <span class="orange-words">Surprise Someone</span><br/>Working from
-            Home
+          <span class="orange-words">Surprise Someone</span><br />Working from
+          Home
         </h3>
         <p class="surprise-someone_text">
-            Do you have a colleague or family member working hard at home? Our
-            Working From Home box of snacks and drinks is the perfect way to put a
-            smile on their face, delivered direct to their door.<br/><br/>To buy
-            for a large group of people, get in touch and we can discuss bespoke
-            bundles and personalised messaging.
+          Do you have a colleague or family member working hard at home? Our
+          Working From Home box of snacks and drinks is the perfect way to put a
+          smile on their face, delivered direct to their door.<br /><br />To buy
+          for a large group of people, get in touch and we can discuss bespoke
+          bundles and personalised messaging.
         </p>
         <a class="surprise-someone__link button" href="#">Buy Now</a>
-    </div>
-</section>
-<!--SURPRISE_SOMEONE-->
-<!--/////////////////////////////////-->
-<!--INSTAGRAM-->
-<section class="instagram container">
-    <h3 class="instagram__heading-3">
+      </div>
+    </section>
+    <!--SURPRISE_SOMEONE-->
+    <!--/////////////////////////////////-->
+    <!--INSTAGRAM-->
+    <section class="instagram container">
+      <h3 class="instagram__heading-3">
         <span class="orange-words">@PremiumBakeryQuality</span> on Instagram
-    </h3>
-    <div class="slider instagram__slider">
-        <img alt="arrow-left" class="slider__arrow left-arrow" src="img/arrow-left.png">
+      </h3>
+      <div class="slider instagram__slider">
+        <img
+          alt="arrow-left"
+          class="slider__arrow left-arrow"
+          src="img/arrow-left.png"
+        />
         <div class="slider__cards">
-            <img alt="" class="slider__img" src="img/slide_1.png">
-            <img alt="" class="slider__img" src="img/slide_2.png">
-            <img alt="" class="slider__img" src="img/slide_3.png">
-            <img alt="" class="slider__img" src="img/slide_4.png">
-            <img alt="" class="slider__img" src="img/slide_5.png">
+          <img alt="" class="slider__img" src="img/slide_1.png" />
+          <img alt="" class="slider__img" src="img/slide_2.png" />
+          <img alt="" class="slider__img" src="img/slide_3.png" />
+          <img alt="" class="slider__img" src="img/slide_4.png" />
+          <img alt="" class="slider__img" src="img/slide_5.png" />
         </div>
-        <img alt="arrow-right" class="slider__arrow right-arrow" src="img/arrow-right.png">
-    </div>
-</section>
-<!--INSTAGRAM-->
-<!--/////////////////////////////////-->
-<!--TELL_A_FRIEND-->
-<section class="tell-a-friend">
-    <h3 class="tell-a-friend__heading-3">Tell a Friend</h3>
-    <div class="social">
+        <img
+          alt="arrow-right"
+          class="slider__arrow right-arrow"
+          src="img/arrow-right.png"
+        />
+      </div>
+    </section>
+    <!--INSTAGRAM-->
+    <!--/////////////////////////////////-->
+    <!--TELL_A_FRIEND-->
+    <section class="tell-a-friend">
+      <h3 class="tell-a-friend__heading-3">Tell a Friend</h3>
+      <div class="social">
         <a class="tell-a-friend__link" href=""
-        ><img alt="facebook" class="tell-a-friend_img" src="img/facebook.png"
+          ><img alt="facebook" class="tell-a-friend_img" src="img/facebook.png"
         /></a>
         <a class="tell-a-friend__link" href=""
-        ><img
-                alt="instagram"
-                class="tell-a-friend_img"
-                src="img/instagram.png"
+          ><img
+            alt="instagram"
+            class="tell-a-friend_img"
+            src="img/instagram.png"
         /></a>
         <a class="tell-a-friend__link" href=""
-        ><img alt="twitter" class="tell-a-friend_img" src="img/twitter.png"
+          ><img alt="twitter" class="tell-a-friend_img" src="img/twitter.png"
         /></a>
         <a class="tell-a-friend__link" href=""
-        ><img alt="whatsapp" class="tell-a-friend_img" src="img/whatsapp.png"
+          ><img alt="whatsapp" class="tell-a-friend_img" src="img/whatsapp.png"
         /></a>
         <a class="tell-a-friend__link" href=""
-        ><img
-                alt="messanger"
-                class="tell-a-friend_img"
-                src="img/messanger.png"
+          ><img
+            alt="messanger"
+            class="tell-a-friend_img"
+            src="img/messanger.png"
         /></a>
         <a class="tell-a-friend__link" href=""
-        ><img alt="telegram" class="tell-a-friend_img" src="img/telegram.png"
+          ><img alt="telegram" class="tell-a-friend_img" src="img/telegram.png"
         /></a>
-    </div>
-</section>
-<!--TELL_A_FRIEND-->
-<!--/////////////////////////////////-->
-<!--FOOTER-->
-<footer class="footer container">
-    <ul class="menu__list">
+      </div>
+    </section>
+    <!--TELL_A_FRIEND-->
+    <!--/////////////////////////////////-->
+    <!--FOOTER-->
+    <footer class="footer container">
+      <ul class="menu__list">
         <div class="logo">
-            <a class="logo_link" href="#"
+          <a class="logo_link" href="#"
             ><img alt="logo-image" class="logo_img" src="img/logo.svg"
-            /></a>
+          /></a>
         </div>
         <li class="menu__item">
-            <a class="menu__link" href="https://google.ru">Occasions</a>
-            <ul class="menu__list menu__sublist">
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Occasions</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Working From Home</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Snack Time </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Breakfast</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Vegan Life </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Baking</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Gifts & Bundles </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Easy Cooking </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">All Products</a>
-                </li>
-            </ul>
+          <a class="menu__link" href="https://google.ru">Occasions</a>
+          <ul class="menu__list menu__sublist">
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Occasions</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Working From Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Snack Time </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Breakfast</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Vegan Life </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Baking</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Gifts & Bundles </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Easy Cooking </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">All Products</a>
+            </li>
+          </ul>
         </li>
         <li class="menu__item">
-            <a class="menu__link" href="">All Categories</a>
-            <ul class="menu__list menu__sublist">
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Baking</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Breakfast</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Condiments</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Drinks</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Heat Things Up </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Meal Solutions </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Pantry Staples </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Simmer Sauces </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Snacks & Treats </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href=""
-                    >Spice Up Your Cooking
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Sweet Tooth </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Wine & Cheese </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">All Products</a>
-                </li>
-            </ul>
+          <a class="menu__link" href="">All Categories</a>
+          <ul class="menu__list menu__sublist">
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Baking</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Breakfast</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Condiments</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Drinks</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Heat Things Up </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Meal Solutions </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Pantry Staples </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Simmer Sauces </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Snacks & Treats </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href=""
+                >Spice Up Your Cooking
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Sweet Tooth </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Wine & Cheese </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">All Products</a>
+            </li>
+          </ul>
         </li>
         <li class="menu__item">
-            <a class="menu__link" href="">Gifts & Bundles</a>
-            <ul class="menu__list menu__sublist">
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href=""
-                    >Sweet Tooth Special
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Discover Local </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href="">Baking Box </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href=""
-                    >Spicy Heat Lover's Box
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__sublink" href=""
-                    >Snacking Sensations</a
-                    >
-                </li>
-            </ul>
+          <a class="menu__link" href="">Gifts & Bundles</a>
+          <ul class="menu__list menu__sublist">
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href=""
+                >Sweet Tooth Special
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Discover Local </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href="">Baking Box </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href=""
+                >Spicy Heat Lover's Box
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__sublink" href=""
+                >Snacking Sensations</a
+              >
+            </li>
+          </ul>
         </li>
         <li class="menu__item">
-            <a class="menu__link" href="">Our Brands</a>
+          <a class="menu__link" href="">Our Brands</a>
         </li>
         <li class="menu__item">
-            <a class="menu__link" href="">About Us</a>
+          <a class="menu__link" href="">About Us</a>
         </li>
-    </ul>
-</footer>
-<!--FOOTER-->
-<!--/////////////////////////////////-->
-<script src="js/app.js"></script>
-</body>
+      </ul>
+    </footer>
+    <!--FOOTER-->
+    <!--/////////////////////////////////-->
+    <script src="js/app.js"></script>
+  </body>
 </html>

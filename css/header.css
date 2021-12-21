@@ -60,5 +60,26 @@
   align-items: center;
   text-decoration: none;
 }
+.menu-icons.header__menu-icons .menu-icons__cart {
+  position: relative;
+}
+.menu-icons.header__menu-icons .menu-icons__product-count {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ff8126;
+}
+.menu-icons.header__menu-icons .menu-icons__cart-text {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 13px;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=header.css.map */

@@ -1,6 +1,7 @@
 @import "header.css";
 @import "menu.css";
 @import "menu-icons.css";
+@import "popup-cart.css";
 @import "dropdown_menu.css";
 @import "banner.css";
 @import "button.css";
@@ -65,4 +66,8 @@ a {
 
 li{
   list-style-type: none;
+}
+
+.hidden{
+  display: none;
 }
