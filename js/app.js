@@ -80,8 +80,8 @@ function makeHtml(product) {
     return `<div class="popup-cart__title product">${product.title}</div>
                     <div class="product "><img  class="popup-cart__img" src="${product.img}" alt="prod_img" ></div>
                     <div class="popup-cart__quantity product">${product.count}</div>
-                    <div class="popup-cart__price product">${product.price}</div>
-                    <div class="popup-cart__sum product">${product.total}</div>`;
+                    <div class="popup-cart__price product">$ ${product.price}</div>
+                    <div class="popup-cart__sum product">$ ${product.total}</div>`;
 }
 
 
