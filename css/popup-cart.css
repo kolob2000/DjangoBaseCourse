@@ -31,6 +31,12 @@
 .popup-cart_item .product {
   border-bottom: 1px solid #1f1f1f;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.popup-cart_item .product .popup-cart__img {
+  height: 40px;
+  margin: 5px 0;
 }
 
 .menu-icons__cross {
