@@ -17,6 +17,7 @@ const cross = document.querySelector(".menu-icons__cross");
 const cartBlock = document.querySelector(".popup-cart");
 const popupCartItem = document.querySelector(".popup-cart_item");
 const tableTitle = popupCartItem.innerHTML;
+
 class Product {
     constructor(product) {
         this.id = product.dataset.id;
@@ -35,6 +36,7 @@ class Product {
         this.count++;
     }
 }
+
 document.addEventListener("click", (event) => {
     if (event.target.id === "cart-icon") {
         event.preventDefault();
@@ -60,19 +62,19 @@ document.addEventListener("click", (event) => {
         } else {
             products[product.dataset.id] = prod;
         }
-        // console.log(products);
         let cartHtml = '';
         for (const i of products) {
             if (i !== undefined) {
                 cartHtml += makeHtml(i);
             }
         }
-        console.log();
+        popupCartItem.innerHTML = tableTitle + cartHtml + `<a href="" class="popup-cart__clear button">Clear cart</a>`;
+
+    } else if (event.target.classList.contains("popup-cart__clear")) {
+        event.preventDefault();
+        popupCartItem.innerHTML = tableTitle;
     }
 });
-
-///////////////////////////////////////////////////////////////////
-
 
 function makeHtml(product) {
     return `<div class="popup-cart__title product">${product.title}</div>
@@ -81,3 +83,6 @@ function makeHtml(product) {
                     <div class="popup-cart__price product">${product.price}</div>
                     <div class="popup-cart__sum product">${product.total}</div>`;
 }
+
+
+///////////////////////////////////////////////////////////////////

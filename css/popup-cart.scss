@@ -5,7 +5,7 @@
   justify-content: center;
 
   position: absolute;
-  padding: 40px 30px 30px 30px;
+  padding: 40px 30px 16px 30px;
   top: 65px;
   right: 0;
   width: 970px;
@@ -31,11 +31,16 @@
   width: 100%;
   padding-bottom: 10px;
 
-  //.popup-cart__img {
-  //  display: block;
-  //  border: 2px solid green;
-  //  height: 40px;
-  //}
+  .popup-cart__clear{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    margin-top: 15px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
 
   .product {
     border-bottom: 1px solid #1f1f1f;
