@@ -241,3 +241,7 @@ fabric.properties
 
 # Built Visual Studio Code Extensions
 *.vsix
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
