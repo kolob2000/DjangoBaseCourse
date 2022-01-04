@@ -1,0 +1,7 @@
+.menu .menu__list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=menu.css.map */

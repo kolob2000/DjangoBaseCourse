@@ -1,0 +1,38 @@
+.header__banner {
+  margin: 0 auto;
+  background-image: url(../img/header_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner {
+  box-sizing: border-box;
+  padding-top: 125px;
+}
+.banner .banner__heading {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+}
+.banner .banner__text {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+  margin-bottom: 40px;
+}
+.banner .banner__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.banner .banner_button {
+  width: 200px;
+  height: 45px;
+}
+
+/*# sourceMappingURL=banner.css.map */

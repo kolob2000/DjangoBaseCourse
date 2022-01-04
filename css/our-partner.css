@@ -1,0 +1,28 @@
+.our-partner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/partner_back.png);
+  height: 395px;
+  margin: 80px 0;
+  padding-top: 60px;
+}
+.our-partner .our-partner__heading-3 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.our-partner .our-partner__logo {
+  margin-bottom: 30px;
+}
+.our-partner .our-partner__link {
+  width: 330px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=our-partner.css.map */

@@ -1,0 +1,55 @@
+.latest-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 80px;
+}
+.latest-offer .latest-offer__heading-3 {
+  margin-bottom: 40px;
+}
+
+.latest-offer__cards .cards__item {
+  background: #f7f5f0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.latest-offer__cards .cards__img {
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 20px;
+  height: 160px;
+  width: 270px;
+  object-fit: cover;
+}
+.latest-offer__cards .cards__heading-5 {
+  margin-bottom: 5px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.latest-offer__cards .cards__current-price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff8126;
+}
+.latest-offer__cards .cards__old-price {
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #656565;
+}
+.latest-offer__cards .cards__button {
+  margin: 14px 0 30px;
+  height: 40px;
+  width: 230px;
+}
+.latest-offer__cards .cards__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=offers.css.map */

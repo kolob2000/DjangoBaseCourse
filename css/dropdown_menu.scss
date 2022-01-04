@@ -1,0 +1,40 @@
+.dropdown-menu {
+  .dropper_root {
+    position: relative;
+  }
+
+  .dropper_root > .menu__link:after {
+    content: url("../img/dropper_root.svg");
+    padding-left: 7px;
+  }
+
+  .dropper_node {
+    position: relative;
+  }
+
+  .dropper_node > .menu__link:after {
+    content: url("../img/dropper_node.svg");
+    padding-left: 7px;
+  }
+
+  .dropdown_down {
+    display: none;
+    position: absolute;
+  }
+
+  .dropdown_right {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+  }
+
+  .dropper_root:hover > ul {
+    display: block;
+  }
+
+  .dropper_node:hover > ul {
+    display: block;
+  }
+}
