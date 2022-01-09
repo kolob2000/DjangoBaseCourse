@@ -15,7 +15,8 @@ for (const buttonCard of buttonCards) {
         let productHtml;
         if (event.target.parentElement.classList.contains("cards__item")) {
             productHtml = event.target.parentElement;
-        } else {
+        }
+        else {
             productHtml = event.target.parentElement.parentElement;
         }
         let product = new Product(productHtml);
